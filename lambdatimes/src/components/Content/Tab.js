@@ -15,7 +15,8 @@ const Tab = ({ tab, selectTabHandler}) => {
   
   return (
     <div className="tab active-tab"
-     
+      //if tab === selectedtab { return className=" active-tab"}
+     // else return  className="tab"
 
       onClick={() => {
         /* Replace this dummy click handler function with your selectTabHandler function from props 
